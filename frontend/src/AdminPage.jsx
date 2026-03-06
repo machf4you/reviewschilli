@@ -186,7 +186,7 @@ export default function AdminPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-matte-black flex items-center justify-center">
+      <div className="min-h-screen bg-light-bg flex items-center justify-center">
         <div className="text-text-muted">Loading...</div>
       </div>
     );
@@ -195,14 +195,14 @@ export default function AdminPage() {
   // Login Form
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-matte-black" data-testid="admin-login-page">
+      <div className="min-h-screen bg-light-bg" data-testid="admin-login-page">
         <Toaster
           position="top-center"
           toastOptions={{
             style: {
-              background: "#121614",
-              color: "#EDEDED",
-              border: "1px solid #1F2923",
+              background: "#ffffff",
+              color: "#1a1a1a",
+              border: "1px solid #E5E7EB",
             },
           }}
         />
@@ -250,7 +250,7 @@ export default function AdminPage() {
 
   // Admin Dashboard
   return (
-    <div className="min-h-screen bg-matte-black" data-testid="admin-dashboard">
+    <div className="min-h-screen bg-light-bg" data-testid="admin-dashboard">
       <Toaster
         position="top-center"
         toastOptions={{

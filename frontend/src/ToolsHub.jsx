@@ -15,17 +15,18 @@ const tools = [
 
 export default function ToolsHub() {
   return (
-    <div className="min-h-screen bg-matte-black" data-testid="tools-hub">
+    <div className="min-h-screen bg-light-bg" data-testid="tools-hub">
       {/* Noise overlay */}
-      <div className="noise-overlay" aria-hidden="true" />
+      <div className="noise-overlay hidden" aria-hidden="true" />
 
+      {/* Header */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         {/* Header */}
         <header className="text-center mb-12 sm:mb-16 animate-fade-in-up" data-testid="hub-header">
-          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-text-main tracking-tight mb-4">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 tracking-tight mb-4">
             Chili Media Review Booster
           </h1>
-          <p className="text-text-muted text-sm sm:text-base max-w-lg mx-auto">
+          <p className="text-gray-600 text-sm sm:text-base max-w-lg mx-auto">
             Free tools to help your business grow. Built by Smoking Chili Media.
           </p>
         </header>
@@ -45,7 +46,7 @@ export default function ToolsHub() {
                   <tool.icon size={24} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h2 className="font-heading text-lg font-semibold text-text-main mb-1 group-hover:text-chili-red transition-colors">
+                  <h2 className="font-heading text-lg font-semibold text-gray-800 mb-1 group-hover:text-chili-red transition-colors">
                     {tool.name}
                   </h2>
                   <p className="text-text-muted text-sm leading-relaxed">

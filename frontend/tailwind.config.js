@@ -12,14 +12,14 @@ module.exports = {
                 heading: ['Manrope', 'system-ui', 'sans-serif'],
             },
             colors: {
-                'matte-black': '#0B0F0D',
-                'surface': '#121614',
-                'surface-highlight': '#1A1F1C',
+                'light-bg': '#F8F9FA',
+                'surface': '#ffffff',
+                'surface-highlight': '#F3F4F6',
                 'chili-red': '#e41c1c',
                 'chili-red-hover': '#c91818',
-                'text-main': '#EDEDED',
-                'text-muted': '#A1A1AA',
-                'border-subtle': '#1F2923',
+                'text-main': '#1a1a1a',
+                'text-muted': '#6B7280',
+                'border-subtle': '#E5E7EB',
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
                 card: {
@@ -79,8 +79,8 @@ module.exports = {
                 'fade-in-up': 'fade-in-up 0.5s ease-out forwards'
             },
             boxShadow: {
-                'chili-glow': '0 0 20px rgba(228, 28, 28, 0.2)',
-                'chili-glow-lg': '0 0 30px rgba(228, 28, 28, 0.4)',
+                'chili-glow': '0 4px 14px rgba(228, 28, 28, 0.25)',
+                'chili-glow-lg': '0 6px 20px rgba(228, 28, 28, 0.35)',
             }
         }
     },

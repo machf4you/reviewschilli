@@ -213,7 +213,7 @@ function ReviewBooster() {
   // Loading state
   if (isLoadingClient) {
     return (
-      <div className="min-h-screen bg-matte-black flex items-center justify-center">
+      <div className="min-h-screen bg-light-bg flex items-center justify-center">
         <div className="text-text-muted">Loading...</div>
       </div>
     );
@@ -222,15 +222,15 @@ function ReviewBooster() {
   // Client not found state
   if (clientNotFound) {
     return (
-      <div className="min-h-screen bg-matte-black" data-testid="not-found-page">
-        <div className="noise-overlay" aria-hidden="true" />
+      <div className="min-h-screen bg-light-bg" data-testid="not-found-page">
+        <div className="noise-overlay hidden" aria-hidden="true" />
         <Toaster
           position="top-center"
           toastOptions={{
             style: {
-              background: "#121614",
-              color: "#EDEDED",
-              border: "1px solid #1F2923",
+              background: "#ffffff",
+              color: "#1a1a1a",
+              border: "1px solid #E5E7EB",
             },
           }}
         />
@@ -287,7 +287,7 @@ function ReviewBooster() {
   }
 
   return (
-    <div className="min-h-screen bg-matte-black" data-testid="app-container">
+    <div className="min-h-screen bg-light-bg" data-testid="app-container">
       {/* Noise overlay */}
       <div className="noise-overlay" aria-hidden="true" />
 
@@ -312,10 +312,10 @@ function ReviewBooster() {
             <ArrowLeft size={16} />
             Back to Tools
           </Link>
-          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-text-main tracking-tight mb-3">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 tracking-tight mb-3">
             Chili Media Review Booster
           </h1>
-          <p className="text-text-muted text-sm sm:text-base">
+          <p className="text-gray-600 text-sm sm:text-base">
             Generate a simple review link and message to send customers.
           </p>
         </header>
