@@ -23,7 +23,7 @@ export default function ToolsHub() {
         {/* Header */}
         <header className="text-center mb-12 sm:mb-16 animate-fade-in-up" data-testid="hub-header">
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-text-main tracking-tight mb-4">
-            Smoking Chili Media Tools
+            Chili Media Review Booster
           </h1>
           <p className="text-text-muted text-sm sm:text-base max-w-lg mx-auto">
             Free tools to help your business grow. Built by Smoking Chili Media.
@@ -80,7 +80,7 @@ export default function ToolsHub() {
             <img 
               src="https://customer-assets.emergentagent.com/job_chili-reviews/artifacts/qc4chsvj_smoking-chili-media-logo-header%20%282%29.png" 
               alt="Smoking Chili Media" 
-              className="h-8 w-auto"
+              className="h-16 w-auto"
             />
           </a>
         </footer>

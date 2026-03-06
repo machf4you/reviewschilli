@@ -278,7 +278,7 @@ function ReviewBooster() {
             <img 
               src="https://customer-assets.emergentagent.com/job_chili-reviews/artifacts/qc4chsvj_smoking-chili-media-logo-header%20%282%29.png" 
               alt="Smoking Chili Media" 
-              className="h-8 w-auto"
+              className="h-16 w-auto"
             />
           </a>
         </footer>
@@ -313,7 +313,7 @@ function ReviewBooster() {
             Back to Tools
           </Link>
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-text-main tracking-tight mb-3">
-            Review Booster
+            Chili Media Review Booster
           </h1>
           <p className="text-text-muted text-sm sm:text-base">
             Generate a simple review link and message to send customers.
@@ -587,7 +587,7 @@ function ReviewBooster() {
             <img 
               src="https://customer-assets.emergentagent.com/job_chili-reviews/artifacts/qc4chsvj_smoking-chili-media-logo-header%20%282%29.png" 
               alt="Smoking Chili Media" 
-              className="h-8 w-auto"
+              className="h-16 w-auto"
             />
           </a>
         </footer>
