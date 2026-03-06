@@ -9,7 +9,7 @@ import { Copy, Download, ExternalLink, Sparkles, MessageCircle, Mail, Smartphone
 import AdminPage from "./AdminPage.jsx";
 import ToolsHub from "./ToolsHub.jsx";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${import.meta.env.VITE_BACKEND_URL}/api`;
 
 // Message templates
 const templates = {

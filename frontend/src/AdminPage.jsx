@@ -13,7 +13,7 @@ import {
   X
 } from "lucide-react";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${import.meta.env.VITE_BACKEND_URL}/api`;
 
 // Configure axios to send cookies
 axios.defaults.withCredentials = true;
