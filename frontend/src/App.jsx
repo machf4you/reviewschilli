@@ -268,9 +268,19 @@ function ReviewBooster() {
         </div>
         
         <footer className="absolute bottom-8 left-0 right-0 text-center">
-          <p className="text-xs text-text-muted/60">
-            Provided by Smoking Chili Media
-          </p>
+          <a 
+            href="https://smokingchilimedia.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <span className="text-xs text-text-muted">Powered by</span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_chili-reviews/artifacts/qc4chsvj_smoking-chili-media-logo-header%20%282%29.png" 
+              alt="Smoking Chili Media" 
+              className="h-8 w-auto"
+            />
+          </a>
         </footer>
       </div>
     );
@@ -567,9 +577,19 @@ function ReviewBooster() {
 
         {/* Footer */}
         <footer className="text-center mt-8 sm:mt-12 animate-fade-in-up delay-200" data-testid="footer">
-          <p className="text-xs text-text-muted/60">
-            Provided by Smoking Chili Media
-          </p>
+          <a 
+            href="https://smokingchilimedia.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity"
+          >
+            <span className="text-xs text-text-muted">Powered by</span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_chili-reviews/artifacts/qc4chsvj_smoking-chili-media-logo-header%20%282%29.png" 
+              alt="Smoking Chili Media" 
+              className="h-8 w-auto"
+            />
+          </a>
         </footer>
       </div>
     </div>
